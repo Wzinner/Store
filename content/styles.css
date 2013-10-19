@@ -1,18 +1,18 @@
-body, html { /*height:100%;   background-color:#7c4098;*/ font-family:Arial;}
+body, html {font-family:Arial;}
 body {background: url(img/6c9c.jpg);}
 h1,h2,h3 {font-weight:normal;}
 .wrapper {width:900px; position:relative; background-color:#ffffff; padding:10px 20px; margin:40px auto;}
-.header {}
+.header {height:150px}
+.header a {display:inline-block; text-decoration:none; background-color:#eee; color:#333; padding:10px; margin:5px;} 
+.header a:hover {background-color:yellow;}
 .body {}
-.basket { position:absolute; top:0; right:0; width:200px;}
+.basket { position:absolute; top:0; right:0; width:180px;}
+.sum {color: red; font-size: 200%;}
 
 ul.list {overflow:hidden; padding:0; list-style:none;}
 .list li {padding:10px 10px; overflow:hidden; margin:10px; border:1px solid #999;}
-
 .list li .goods {float:left;}
 .list li .description {float:right; width:400px; margin-top:10px;}
-
-
 .list li b {display:block; font-size:1.5em; margin-bottom:5px;}
 .list li .cost {display:block; margin:10px 0;}
 .list li a {display:inline-block; text-decoration:none; background-color:#eee; color:#333; padding:10px;}
