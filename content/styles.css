@@ -10,7 +10,7 @@ h1,h2,h3 {font-weight:normal;}
 .sum {color: red; font-size: 200%;}
 
 ul.list {overflow:hidden; padding:0; list-style:none;}
-.list li {padding:10px 10px; overflow:hidden; margin:10px; border:1px solid #999;}
+.list li {padding:10px 20px; overflow:hidden; margin:10px; border:1px solid #999;}
 .list li .goods {float:left;}
 .list li .description {float:right; width:400px; margin-top:10px;}
 .list li b {display:block; font-size:1.5em; margin-bottom:5px;}
